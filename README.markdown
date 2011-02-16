@@ -10,6 +10,18 @@ them to the 4.0, but I'm not sure how to use the build tools yet. If you know a 
 theming, feel free to fork this project, make the changes, and send me a pull request! I'll do my best to keep
 this updated as Sencha releases the latest version of their 4.0 developer previews and beta releases!
 
+## Usage ##
+
+The only file you really need to edit is `app/app.js`. The files are ordered so that all CSS files and the Ext
+Javascript files are under resources, and your Javascript files are under `app`. This seems like a decent
+directory structure, but since I'm new to Ext, let me know if you think that there is a better convention.
+
+You can also edit the file `resources/app/css/app.css` if you want to make any changes to the default CSS or
+if you add your own components.
+
+As soon as the build tools are released, I'm sure the directory structure will change, and I will do my best
+to go along with the standard that Sencha provides.
+
 ## Credits ##
 
  * Thanks to [tobiu](http://www.sencha.com/forum/member.php?4613-tobiu) on the Sencha forums for pointing me
